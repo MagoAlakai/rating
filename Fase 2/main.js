@@ -1,7 +1,7 @@
 var change_color = (event) =>{
-    event.style.color='blue';
+    event.classList.add('active');
 }
 
 var change_color_back = (event) =>{
-    event.style.color='red';
+    event.classList.remove('active');
 }

@@ -1,8 +1,28 @@
 .far{
-    color: red;
-    padding: 10px;
+    padding: 13px;
     font-size: 50px;
 }
 
+.red{
+    color: red;
+}
+
+body{
+    height: 100%;
+    min-height: 100vh;
+}
+
+#reset3 {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.active{
+    color:blue;
+}
+
+.row{
+    padding: 0px !important;
+}
 
 

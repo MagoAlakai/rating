@@ -5,7 +5,7 @@ var change_color = (event) =>{
     console.log(corazones);
     console.log(index);
     for(let i = 0; i<= index; i++){
-        arr[i].style.color='blue';
+        arr[i].classList.add('active');
     }
 }
 
