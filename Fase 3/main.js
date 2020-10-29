@@ -1,4 +1,4 @@
-var change_color = (event) =>{
+var change_color_mouse = (event) =>{
     var corazones = document.getElementsByClassName('far');
     var arr = Array.prototype.slice.call(corazones)
     var index = arr.indexOf(event);

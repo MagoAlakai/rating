@@ -21,6 +21,10 @@ body{
     color:blue;
 }
 
+.active-mouse{
+    color:blue;
+}
+
 .row{
     padding: 0px !important;
 }
