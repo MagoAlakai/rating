@@ -1,3 +1,4 @@
+/*Estilos genéricos, de clases y de ID*/
 .far{
     padding: 13px;
     font-size: 50px;
@@ -5,10 +6,6 @@
 
 .red{
     color: red;
-}
-
-i:hover, i:hover ~ i {
-    color: blue;
 }
 
 body{
@@ -21,12 +18,24 @@ body{
     min-height: 100vh;
 }
 
+.row{
+    padding: 0px !important;
+}
+
+/*Clase añadida al clickar corazon*/
+
 .active{
     color:blue;
 }
 
-.row{
-    padding: 0px !important;
+/*Cambios de color al pasar ratón*/
+i{
+    float: right;
 }
+
+i:hover, i:hover ~ i {
+    color: blue;
+}
+
 
 
