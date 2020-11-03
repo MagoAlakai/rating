@@ -15,11 +15,10 @@ var change_color = (event) =>{
     var arr = Array.prototype.slice.call(corazones)
     var index = arr.indexOf(event);
     for(let i = 0; i<= index; i++){
-        if(arr[i].className === 'red far fa-heart active active-mouse'){
+        if(arr[i].className === 'red far fa-heart active'){
             i = index;
             for(let i = 0; i < corazones.length; i++){
                 arr[i].classList.remove('active');
-                arr[i].classList.remove('active-mouse');
                 }
         }else{
             arr[i].classList.add('active');
@@ -27,27 +26,6 @@ var change_color = (event) =>{
     }
 }
 
-//Cambiar color al pasar ratón por el corazón o resetear si elmouse sale del corazón.
-var change_color_mouse = (event) =>{
-    var corazones = document.getElementsByClassName('far');
-    var arr = Array.prototype.slice.call(corazones)
-    var index = arr.indexOf(event);
-    console.log(corazones);
-    console.log(index);
-    for(let i = 0; i<= index; i++){
-        arr[i].classList.add('active-mouse');
-    }
-}
-var change_color_back = (event) =>{
-    var corazones = document.getElementsByClassName('far');
-    var arr = Array.prototype.slice.call(corazones)
-    var index = arr.indexOf(event);
-    console.log(corazones);
-    console.log(index);
-    for(let i = 0; i<= index; i++){
-        arr[i].classList.remove('active-mouse');
-    }
-}
 
 
 

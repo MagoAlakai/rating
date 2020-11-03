@@ -7,6 +7,10 @@
     color: red;
 }
 
+i:hover, i:hover ~ i {
+    color: blue;
+}
+
 body{
     height: 100%;
     min-height: 100vh;
@@ -18,10 +22,6 @@ body{
 }
 
 .active{
-    color:blue;
-}
-
-.active-mouse{
     color:blue;
 }
 
